@@ -1,4 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
+import SocialMedia from "../pages/home/SocialMedia";
+
 //import Typewriter from "/.Typewriter";
   
 export default function Home() {
@@ -43,7 +45,7 @@ export default function Home() {
                 <br />
                 <strong>Feel free to connect with me</strong>
               </p>
-       
+              <SocialMedia />
           </Col>
           </Row>
           </Container>
