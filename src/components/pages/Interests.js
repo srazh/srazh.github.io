@@ -3,6 +3,12 @@ import { MDBCard, MDBCardBody, MDBCardTitle, MDBCardText, MDBCardImage, MDBBtn, 
 
 export default function Interests() {
   return (
+    <Container fluid className="interest-section">
+      <Container>
+        <h1 className="interests-heading">
+          <Strong> My Interests </Strong>         
+        </h1>
+        
     <MDBRow className='row-cols-1 row-cols-md-3 g-4'>
     <MDBCol>
       <MDBCard>
@@ -71,7 +77,7 @@ export default function Interests() {
         <MDBCardBody>
           <MDBCardTitle>Concerts</MDBCardTitle>
           <MDBCardText>
-            After buying my first concert tickets for Tame Impala and Clairo in 2019, it wasn't until 2021 that I could actually physically 
+            After purchasing my first concert tickets for Tame Impala and Clairo in 2019, it wasn't until 2021 that I could actually physically 
             attend one. I fell in love with the concert scene after attending Govball in NYC Summer 2021. The energy, comradery and people
             I met became what I look forward to everytime. Since then, I have attended many concerts in Boston, from 20 person venues to the 
             TD Garden. My next concerts are Maude Latour and John Mayer!
@@ -80,6 +86,8 @@ export default function Interests() {
       </MDBCard>
     </MDBCol>
   </MDBRow>
+  </Container>
+  </Container>
 
   );
 }

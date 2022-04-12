@@ -7,10 +7,16 @@ import Home from './components/pages/Home';
 import Work from './components/pages/Work';
 import Play from './components/pages/Play';
 import Interests from './components/pages/Interests';
+import Container from './components/Container';
+import NabvBar from './components/Navbar';
 
 export default function App() {
     return (
+
+    
         <Router>
+            <Container/>
+            <NabvBar/>
         <Routes>
             <Route path='/' element={<Home/>} />
             <Route path='/Work' element={<Work/>} />
