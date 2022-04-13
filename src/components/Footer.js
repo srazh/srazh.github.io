@@ -1,4 +1,6 @@
+import React from "react";
 import SocialMedia from "./pages/home/SocialMedia";
+import {Container, Row, Col} from "react-bootstrap";
 
 export default function Footer() {
     let date = new Date();
