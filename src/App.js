@@ -9,12 +9,13 @@ import Play from './components/pages/Play';
 import Interests from './components/pages/Interests';
 import Container from './components/Container';
 import NabvBar from './components/Navbar';
+import Footer from "./components/Footer";
+import "./index.css";
 
 export default function App() {
     return (
-
-    
         <Router>
+            <div>
             <Container/>
             <NabvBar/>
         <Routes>
@@ -23,6 +24,8 @@ export default function App() {
             <Route path='/Play' element={<Play/>} />
             <Route path='/Interests' element={<Interests/>} />
         </Routes>
+        <Footer />
+        </div>
         </Router>
     ); 
 }
