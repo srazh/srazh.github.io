@@ -14,7 +14,7 @@ export default function Interests() {
       <MDBCard>
         <MDBCardImage
           src='./assets/etsy.jpg'
-          alt='...'
+          alt='image of Etsy shop'
           position='top'
         />
         <MDBCardBody>
@@ -33,7 +33,7 @@ export default function Interests() {
       <MDBCard>
         <MDBCardImage
           src='./assets/foodie.jpg'
-          alt='...'
+          alt='image of food'
           position='top'
         />
         <MDBCardBody>
@@ -51,7 +51,7 @@ export default function Interests() {
       <MDBCard>
         <MDBCardImage
           src='./assets/music.jpg'
-          alt='...'
+          alt='image of concert'
           position='top'
         />
         <MDBCardBody>
