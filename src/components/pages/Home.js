@@ -42,7 +42,7 @@ export default function Home() {
             <Col md={12} className="home-about-social">
               <p>
                 {" "}
-                Whether you just want to say Hi, or collaborate on a project,
+                Whether you just want to say hi, or collaborate on a project...
                 <br />
                 <strong>Feel free to reach out!!!</strong>
               </p>
