@@ -10,16 +10,14 @@ import Interests from './components/pages/Interests';
 
 export default function App() {
     return (
-        <div>
-            <Navbar />
         <Router>
+        <Navbar />
         <Routes> 
-            <Route path='/' element={<Home/>} />
+            <Route path='/Home' element={<Home/>} />
             <Route path='/Work' element={<Work/>} />
             <Route path='/Play' element={<Play/>} />
             <Route path='/Interests' element={<Interests/>} />
         </Routes>
         </Router>
-        </div>
     ); 
 }
