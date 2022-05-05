@@ -15,11 +15,11 @@ return (
 		<Bars />
 
 		<NavMenu>
-		<NavLink to='/Home' activeStyle>
+		<NavLink to='/' activeStyle>
 			Home
 		</NavLink>
 		<NavLink to='/Interests' activeStyle>
-			Work
+			Interests
 		</NavLink>
 		<NavLink to='/Play' activeStyle>
 			Play

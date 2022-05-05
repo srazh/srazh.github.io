@@ -37,7 +37,7 @@ export default function Home() {
         <Container>
           <Row>
             <Col md={12} className="home-about-social">
-              <h1>Get in Touch</h1>
+              <h1>Get in touch with me!</h1>
               <p>
                 {" "}
                 Whether you want to get in touch, or talk about a project

@@ -13,10 +13,10 @@ export default function App() {
         <Router>
         <Navbar />
         <Routes> 
-            <Route path='/Home' element={<Home/>} />
-            <Route path='/Work' element={<Work/>} />
-            <Route path='/Play' element={<Play/>} />
+            <Route path='/' element={<Home/>} />
             <Route path='/Interests' element={<Interests/>} />
+            <Route path='/Play' element={<Play/>} />
+            <Route path='/Work' element={<Work/>} />
         </Routes>
         </Router>
     ); 
