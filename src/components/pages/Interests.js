@@ -1,11 +1,21 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
+import Button from 'react-bootstrap/Button'
 
 
+
+export default function Interests() {
+  return (
+    
+
+  );
+}
+
+
+
+/*
 const Interests = () => {
-
-
     <CardGroup>
   <Card>
     <Card.Img variant="top" src="holder.js/100px160" />
@@ -57,3 +67,4 @@ export default Interests;
 
 
 
+*/

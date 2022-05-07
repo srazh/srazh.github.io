@@ -28,7 +28,7 @@ export default function Home() {
 
              </Col>
              <Col md={5}>
-              <img src={"./assets/sarah.jpg"} className="profile-pic" alt="avatar" />
+              <img src={"./assets/sarah.jpg"} className="profile-pic" alt="avatar" width="500" height="500"/>
             </Col>
           </Row>
         </Container>
