@@ -13,17 +13,13 @@ import "./index.css";
 export default function App() {
     return (
         <Router>
-            <div>
-            <Container/>
-            <Navbar/>
-        <Switch>
+        <Navbar />
+        <Routes> 
             <Route path='/' element={<Home/>} />
-            <Route path='/Work' element={<Work/>} />
-            <Route path='/Play' element={<Play/>} />
             <Route path='/Interests' element={<Interests/>} />
-        </Switch>
-        <Footer />
-        </div>
+            <Route path='/Play' element={<Play/>} />
+            <Route path='/Work' element={<Work/>} />
+        </Routes>
         </Router>
     ); 
 }

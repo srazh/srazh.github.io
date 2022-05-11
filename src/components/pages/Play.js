@@ -1,24 +1,18 @@
-import PhotoAlbum from "react-photo-album";
-export default function Play() {
-    // npm install react-photo-album
+import React from 'react';
 
+const Play = () => {
+return (
+	<div
+	style={{
+		display: 'flex',
+		justifyContent: 'Right',
+		alignItems: 'Right',
+		height: '100vh'
+	}}
+	>
+	<h1>Play</h1>
+	</div>
+);
+};
 
-    <h1 className="Play-Title">
-        A gallery of traditional art and graphic design
-    </h1>
-const photos = [
-    {
-        src: "/images/image1.jpg",
-        width: 800,
-        height: 600
-    },
-    {
-        src: "/images/image2.jpg",
-        width: 1600,
-        height: 900
-    }
-];
-
-<PhotoAlbum layout="rows" photos={photos} />
-
-}
+export default Play;
