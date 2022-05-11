@@ -7,7 +7,9 @@ import Button from 'react-bootstrap/Button'
 
 export default function Interests() {
   return (
-    
+    <Card>
+      <h1> idk</h1>
+    </Card>
 
   );
 }
