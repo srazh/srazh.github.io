@@ -7,9 +7,11 @@ import Button from 'react-bootstrap/Button'
 
 export default function Interests() {
   return (
-    <Card>
-      <h1> idk</h1>
-    </Card>
+    <div>
+    <img src={"./assets/github.png"} className="interests-pics" alt="github" width="200" height="200"/>
+    <img src={"./assets/instagram.png"} className="interests-pics" alt="github" width="200" height="200"/>
+
+    </div>
 
   );
 }
