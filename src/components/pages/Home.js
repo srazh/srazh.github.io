@@ -1,7 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import SocialMedia from "../pages/home/SocialMedia";
+import Typewriter from "./home/Typewriter";
 
-//import Typewriter from "/.Typewriter";
   
 export default function Home() {
   return(
@@ -24,6 +24,9 @@ export default function Home() {
                 I am a 2nd year CS and Design student at Northeastern University. 
                 I am passionate about opportunities at the intersect of those fields
               </p>
+              <div className="heading-type">
+                <Typewriter/>
+              </div>
 
 
              </Col>
@@ -40,10 +43,9 @@ export default function Home() {
               <h1>Get in touch with me!</h1>
               <p>
                 {" "}
-                Whether you want to get in touch, or talk about a project
-                collaboration.
+                Whether you just want to say hi, or collaborate on a project...
                 <br />
-                <strong>Feel free to connect with me</strong>
+                <strong>Feel free to reach out!!!</strong>
               </p>
               <SocialMedia />
           </Col>
