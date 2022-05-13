@@ -1,37 +1,36 @@
-import React from 'react';
-import Card from "../pages/home/Card";
-import {Grid } from "@material-ui/core";
-import {makeStyles} from "@material-ui/core/styles";
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import InterestCards from "./InterestCards";
+import { INTERESTS } from "../../Constants";
 
-const useStyles = makeStyles({
-  gridContainer: {
-    paddingLeft:"40px",
-    paddingRight: "40px"
-  }
-})
 
-export default function Interests() {
-  const classes = useStyles();
-
+function Interests() {
   return (
-    <Grid container spacing= {4} classame={classes.gridContainer} justify="center">>
-      <Grid item xs={12} sm={6} md={4}>
-      <Card />
-      </Grid>
-      <Grid item xs={12} sm={6} md={4}>
-      <Card />
-      </Grid>
-      <Grid item xs={12} sm={6} md={4}>
-      <Card />
-      </Grid>
-      <Grid item xs={12} sm={6} md={4}>
-      <Card />
-      </Grid>
-
-    </Grid>
-   
-
-
+    <Container fluid className="interests-section">
+      <Container>
+        <h1 className="interests-heading">
+          My current <strong className="purple">Interests </strong>
+        </h1>
+        <p style={{ color: "white" }}>
+          Here are a few projects I've worked on recently.
+        </p>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          {INTERESTS.map((interest, index) => (
+            <Col md={4} className="interests-card" key={index}>
+              <InterestCards
+                imgPath={interest.image}
+                technologyUsed={interest.technologyUsed}
+                isBlog={false}
+                title={interest.name}
+                description={interest.description}
+                link={interest.url}
+              />
+            </Col>
+          ))}
+        </Row>
+      </Container>
+    </Container>
   );
 }
 
+export default Interests;

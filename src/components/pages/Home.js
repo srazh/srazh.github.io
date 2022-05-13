@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import SocialMedia from "../pages/home/SocialMedia";
-
+import myImg from "../../assets/sarah.jpg";
 
   
 export default function Home() {
@@ -30,7 +30,7 @@ export default function Home() {
 
              </Col>
              <Col md={5}>
-              <img src={"./assets/sarah.jpg"} className="profile-pic" alt="avatar" width="500" height="500"/>
+              <img src={myImg} className="profile-pic" alt="avatar" width="500" height="500"/>
             </Col>
           </Row>
         </Container>
