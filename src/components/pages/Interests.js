@@ -8,8 +8,15 @@ import Button from 'react-bootstrap/Button'
 export default function Interests() {
   return (
     <div>
-    <img src={"./assets/github.png"} className="interests-pics" alt="github" width="200" height="200"/>
-    <img src={"./assets/instagram.png"} className="interests-pics" alt="github" width="200" height="200"/>
+    <img src={"./assets/concerts.jpg"} className="interests-pics" alt="concerts" width="200" height="300"/>
+    <img src={"./assets/etsy.jpg"} className="interests-pics" alt="etsy" width="200" height="300"/>
+    <img src={"./assets/foodie.jpg"} className="interests-pics" alt="foodie" width="200" height="300"/>
+    <img src={"./assets/music.jpg"} className="interests-pics" alt="music" width="200" height="300"/>
+    <img src={"./assets/spotify.png"} className="interests-pics" alt="spotify" width="200" height="300"/>
+
+
+
+
 
     </div>
 

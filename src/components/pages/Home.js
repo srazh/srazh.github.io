@@ -1,6 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
 import SocialMedia from "../pages/home/SocialMedia";
-import Typewriter from "./home/Typewriter";
 
   
 export default function Home() {
@@ -25,7 +24,6 @@ export default function Home() {
                 I am passionate about opportunities at the intersect of those fields
               </p>
               <div className="heading-type">
-                <Typewriter/>
               </div>
 
 

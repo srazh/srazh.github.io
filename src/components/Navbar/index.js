@@ -18,14 +18,14 @@ return (
 		<NavLink to='/' activeStyle>
 			Home
 		</NavLink>
+		<NavLink to='/Work' activeStyle>
+			Work
+		</NavLink>
 		<NavLink to='/Interests' activeStyle>
 			Interests
 		</NavLink>
 		<NavLink to='/Play' activeStyle>
 			Play
-		</NavLink>
-		<NavLink to='/Work' activeStyle>
-			Work
 		</NavLink>
 		</NavMenu>
 	</Nav>
