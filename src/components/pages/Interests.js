@@ -8,14 +8,23 @@ import Button from 'react-bootstrap/Button'
 export default function Interests() {
   return (
     <div>
-    <img src={"./assets/concerts.jpg"} className="interests-pics" alt="concerts" width="200" height="300"/>
     <img src={"./assets/etsy.jpg"} className="interests-pics" alt="etsy" width="200" height="300"/>
     <img src={"./assets/foodie.jpg"} className="interests-pics" alt="foodie" width="200" height="300"/>
     <img src={"./assets/music.jpg"} className="interests-pics" alt="music" width="200" height="300"/>
     <img src={"./assets/spotify.png"} className="interests-pics" alt="spotify" width="200" height="300"/>
 
 
-
+    <Card style={{ width: '18rem' }}>
+  <Card.Img variant="top" src="./assets/concerts.jpg" width="200" height="300"/>
+  <Card.Body>
+    <Card.Title>Concerts</Card.Title>
+    <Card.Text>
+      Some quick example text to build on the card title and make up the bulk of
+      the card's content.
+    </Card.Text>
+    <Button variant="primary">Go somewhere</Button>
+  </Card.Body>
+</Card>
 
 
     </div>

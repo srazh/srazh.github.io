@@ -1,6 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import SocialMedia from "../pages/home/SocialMedia";
 
+
   
 export default function Home() {
   return(
