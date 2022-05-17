@@ -12,7 +12,7 @@ function InterestCards(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
-        <Button variant="primary" href={props.link} target="_blank"className="download-button">
+        <Button variant="primary" href={props.link} target="_blank"className="link-button">
           {props.isBlog ? "View Blog" : "Check it out"}
         </Button>
       </Card.Body>

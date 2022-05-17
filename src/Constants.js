@@ -15,7 +15,7 @@ export const INTERESTS = [
     {
         image: concerts,        
         name: "concerts",
-        description: "descripton",
+        description: "Concerts have a special place in my heart, whether it be large-scale festivals or intimate Boston venues. My favorite so far has to be seeing A$AP Rocky at GovBall 2021 and I am currently looking forward to Govball 2022 in June and Electric Zoo 2022 in September!",
         url: ""
     },
     {
@@ -28,7 +28,17 @@ export const INTERESTS = [
         image: foodie,        
         name: "foodie",
         description: "Living in major cities means good eats all the time! I started a food blog on instagram to document my meals.",
-        url: ""
+        url: "www.instagram.com/vanilllabeanz"
+    },
+
+]
+
+export const PLAY = [
+    {
+        image: music,        
+        name: "Music",
+        description: "I am passionate about pop culture and music, thus its no suprise my favorite app is Spotify! ",
+        url: "www.spotify.com/sz95120"
     },
 
 ]

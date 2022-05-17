@@ -153,14 +153,16 @@ code {
   position: relative;
   padding-top: 150px;
   padding-bottom: 30px;
+  padding-left: 30px;
 }
 
 .interests-heading {
   color:#18314F;
   font-size:2.3em;
   font-weight: 500;
-  padding-top: 10px;
-  padding-bottom: 15px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 30px;
 }
 
 .interests-card {
@@ -170,7 +172,6 @@ code {
   padding-right: 25px !important;
   height: auto !important;
 }
-
 
 
 .interest-card-view {
@@ -189,7 +190,6 @@ code {
 }
 
 
-
 @media (max-width: 767px) {
   .profile-pic {
     border-radius: 50%;
@@ -206,8 +206,11 @@ code {
     font-weight: 500 !important;
     padding-top: 10px !important;
     padding-bottom: 15px;
+    padding-left: 10px !important;
+  }
+
+
+  .link-button {
+    color: green;
   }
 }
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
