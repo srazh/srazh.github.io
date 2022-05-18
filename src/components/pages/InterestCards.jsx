@@ -13,10 +13,11 @@ function InterestCards(props) {
           {props.description}
         </Card.Text>
         <Button variant="primary" href={props.link} target="_blank"className="link-button">
-          {props.isBlog ? "View Blog" : "Check it out"}
+          {"Learn more"}
         </Button>
       </Card.Body>
     </Card>
   );
 }
+
 export default InterestCards;
