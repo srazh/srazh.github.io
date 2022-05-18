@@ -5,6 +5,7 @@ import goldfish from "../../assets/Play/goldfish.jpg";
 import jellyfish from "../../assets/Play/jellyfish.jpg";
 
 export default function Play() {
+
 	return (
 		<div class="row">
 		<div class="column">

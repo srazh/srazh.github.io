@@ -11,9 +11,6 @@ function Interests() {
         <h1 className="interests-heading">
           My current <strong className="purple">Interests </strong>
         </h1>
-        <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
-        </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           {INTERESTS.map((interest, index) => (
             <Col md={4} className="interests-card" key={index}>
