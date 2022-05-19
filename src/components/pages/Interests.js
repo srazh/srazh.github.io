@@ -4,17 +4,19 @@ import InterestCards from "./InterestCards";
 import { INTERESTS } from "../../Constants";
 
 
-function Interests() {
+
+
+ function Interests() {
   return (
     <Container fluid className="interests-section">
       <Container>
         <h1 className="interests-heading">
           My current <strong className="purple">Interests </strong>
         </h1>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Row style={{paddingBottom: "10px"  }}>
           {INTERESTS.map((interest, index) => (
-            <Col md={4} className="interests-card" key={index}>
-              <InterestCards
+            <Col md={4} className="interests-card" key={index} width="200">
+                <InterestCards
                 imgPath={interest.image}
                 technologyUsed={interest.technologyUsed}
                 isBlog={false}
@@ -22,7 +24,7 @@ function Interests() {
                 description={interest.description}
                 link={interest.url}
               />
-            </Col>
+            </Col>           
           ))}
         </Row>
       </Container>
@@ -31,3 +33,7 @@ function Interests() {
 }
 
 export default Interests;
+
+ 
+
+

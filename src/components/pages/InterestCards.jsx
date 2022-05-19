@@ -5,7 +5,7 @@ import Button from "react-bootstrap/Button";
 
 function InterestCards(props) {
   return (
-    <Card className="interests-card-view">
+    <Card className="interests-card-view" >
       <Card.Img variant="top" src={props.imgPath} alt="card-img"/>
       <Card.Body>
         <Card.Title style={{fontWeight: "bold"}}>{props.title}</Card.Title>

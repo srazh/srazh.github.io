@@ -36,19 +36,19 @@ code {
 /*-------------*/
 
 .heading {
-  font-size: 2.4em !important;
-  padding-left: 20px !important;
+  font-size: 2.4em;
+  padding-left: 20px ;
   color: #384E77;
 }
 
 .heading-name {
-  font-size: 2.5em !important;
-  padding-left: 20px !important;
+  font-size: 2.5em;
+  padding-left: 20px ;
   color: #18314F;
 }
 
 .heading-description  {
-  margin-left: 20px !important;
+  margin-left: 20px;
 }
 
 .main-name {
@@ -60,27 +60,27 @@ code {
   z-index: -1;
   background-position: top center;
   background-repeat: no-repeat;
-  padding-bottom: 30px !important;
-  padding-top: 30px !important;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 .home-about-social {
-  text-align: center !important;
+  text-align: center;
   padding-top: 25px;
-  color: #8BBEB2 !important;
+  color: #8BBEB2 ;
 }
 
 .home-social-icons {
-  position: relative !important;
-  display: inline-block !important;
-  width: 60px !important;
-  height: 60px !important;
-  text-align: center !important;
-  font-size: 1.2em !important;
-  line-height: 2em !important;
-  background: #8BBEB2 !important;
-  border-radius: 50% !important;
-  transition: 0.5s !important;
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 2em;
+  background: #8BBEB2 ;
+  border-radius: 50%;
+  transition: 0.5s;
   border: 1px solid #E6F9AF;
 }
 .home-social-icons::before {
@@ -99,17 +99,17 @@ code {
 
 
 .home-about-social {
-  text-align: center !important;
+  text-align: center ;
   padding-top: 25px;
-  color: #414141 !important;
+  color: #414141 ;
 }
 
 .home-about-social-links {
-  justify-content: center !important;
-  padding-top: 15px !important;
-  display: inline-block !important;
-  position: relative !important;
-  padding-inline-start: 0 !important;
+  justify-content: center;
+  padding-top: 15px ;
+  display: inline-block ;
+  position: relative;
+  padding-inline-start: 0 ;
 }
 
 .home-social-icons:hover::before {
@@ -124,12 +124,12 @@ code {
 }
 
 .social-icons {
-  display: inline-block !important;
+  display: inline-block;
   padding-left: 15px;
   height: 60px;
 }
 .icon-colour {
-  color: #ffffff !important;
+  color: #ffffff;
 }
 
 .social-icon {
@@ -150,47 +150,46 @@ code {
 /*-------------*/
 
 .interests-section {
-  position: relative !important;
-  padding-top: 150px !important;
-  padding-bottom: 30px !important;
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  padding-bottom: 20px;
   padding-left: 30px;
 }
 
 .interests-card {
-  padding-top: 50px !important;
-  padding-bottom: 50px !important;
-  padding-left: 25px !important;
-  padding-right: 25px !important;
-  height: auto !important;
+  display: flex;
+  padding-top: 5px;
+  padding-bottom: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+  height: auto; 
+
 }
 
 .interests-heading {
-  color:#18314F !important;
-  font-size:2.3em !important;
-  font-weight: 500 !important;
-  padding-top: 0px !important;
-  padding-bottom: 0px !important;
+  color:#18314F;
+  font-size:2.3em;
+  font-weight: 500;
+  padding-top: 0px;
+  padding-bottom: 0px;
   padding-left: 30px;
 }
 
-
-
-
 .interests-card-view {
-  box-shadow: 0 4px 5px 3px #343e47 !important;
-  color: #414141 !important;
-  background-color: transparent !important;
-  opacity: 0.9 !important;
-  transition: all 0.5s ease 0s !important;
-  height: 100% !important;
+  box-shadow: 0 4px 5px 3px #343e47;
+  color: #414141;
+  background-color: transparent;
+  opacity: 0.9;
+  transition: all 0.5s ease 0s;
+
 }
-
-
 .card-img-top {
-  padding: 20px !important;
-  border-radius: 10px !important;
+  padding: 10px;
+  border-radius: 10px;
+  width: 200px;
+  height: auto;
 }
-
 
 @media (max-width: 767px) {
   .profile-pic {
@@ -201,14 +200,11 @@ code {
     margin-left: 25%;
   }
 
-
   .interests-heading {
-    color: #414141 !important;
-    font-size: 2.3em !important;
-    font-weight: 500 !important;
-    padding-top: 10px !important;
-    padding-bottom: 15px;
-    padding-left: 10px !important;
+    color: #414141;
+    font-size: 2.3em;
+    font-weight: 500;
+    padding-left: 10px;
   }
 
 
