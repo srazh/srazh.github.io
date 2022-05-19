@@ -13,7 +13,7 @@ import { INTERESTS } from "../../Constants";
         <h1 className="interests-heading">
           My current <strong className="purple">Interests </strong>
         </h1>
-        <Row style={{paddingBottom: "10px"  }}>
+        <Row style={{ paddingBottom: "10px"  }}>
           {INTERESTS.map((interest, index) => (
             <Col md={4} className="interests-card" key={index} width="200">
                 <InterestCards

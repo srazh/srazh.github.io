@@ -151,7 +151,7 @@ code {
 
 .interests-section {
   display: flex;
-  flex-direction: row;
+  flex-direction: row !important;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 30px;
@@ -182,13 +182,17 @@ code {
   background-color: transparent;
   opacity: 0.9;
   transition: all 0.5s ease 0s;
+  flex-direction: row;
+
+  
 
 }
 .card-img-top {
   padding: 10px;
   border-radius: 10px;
-  width: 200px;
+  width: 250px;
   height: auto;
+
 }
 
 @media (max-width: 767px) {
@@ -218,15 +222,14 @@ code {
   /*-------------*/
 
   .column {
-    float: left;
     width: 25%;
     padding: 10px;
+    justify-content: space-evenly;
   }
   
   .row:after {
-    content: "";
     display: table;
-    clear:both;
+    justify-content: space-evenly;
   }
 
 
