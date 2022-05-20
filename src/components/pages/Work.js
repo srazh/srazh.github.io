@@ -9,7 +9,7 @@ function Work() {
 	  <Container fluid className="work-section">
 		<Container>
 		  <h1 className="work-heading">
-			My current <strong className="purple"> Work </strong>
+			My current <strong> Work </strong>
 		  </h1>
 
 		  <Row style={{ paddingBottom: "10px",  display:"flex"}}>
@@ -17,7 +17,7 @@ function Work() {
 			  <Col md={4} className="work-card" key={index} width="200">
 				  <WorkCards
 				  imgPath={work.image}
-				  technologyUsed={work.techUsed}
+				  technologyUsed={work.technologyUsed}
 				  title={work.name}
 				  duration={work.duration}
 				  description={work.description}

@@ -11,7 +11,7 @@ import { INTERESTS } from "../../Constants";
     <Container fluid className="interests-section">
       <Container>
         <h1 className="interests-heading">
-          My current <strong className="purple">Interests </strong>
+          My current <strong>Interests </strong>
         </h1>
         <Row style={{ paddingBottom: "10px",  display:"flex"}}>
           {INTERESTS.map((interest, index) => (

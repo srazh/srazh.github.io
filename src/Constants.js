@@ -42,7 +42,7 @@ export const INTERESTS = [
         image: botanyPoster,        
         name: "Type Study Poster",
         description: "A study of type through definitions and active design choices/imagery.",
-        techUsed: "Adobe Illustrator, Adobe InDesign",
+        technologyUsed: "Adobe Illustrator, Adobe InDesign",
         duration: "Oct-Nov 2021",
         url: ""
     },
@@ -51,7 +51,7 @@ export const INTERESTS = [
         image: thisWebsite,        
         name: "This Website!",
         description: "Putting my front-end skills to the test for the first time, click the button below to check out the code!",
-        techUsed: "REACT, HTML/CSS, Bootstrap, VSCode, Git",
+        technologyUsed: "REACT, HTML/CSS, Bootstrap, VSCode, Git",
         duration: "Mar-Present 2022",
         url: ""
     },
@@ -60,7 +60,7 @@ export const INTERESTS = [
         image: venmoRedesign,        
         name: "Venmo Case Study/Redesign",
         description: "A UX study of the everyday app Venmo, its shortcomings, and potential solutions to them.",
-        techUsed: "Figma",
+        technologyUsed: "Figma",
         duration: "Oct-Nov 2021",
         url: ""
     },
