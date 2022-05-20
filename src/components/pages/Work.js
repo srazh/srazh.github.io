@@ -11,6 +11,21 @@ function Work() {
 		  <h1 className="work-heading">
 			My current <strong className="purple"> Work </strong>
 		  </h1>
+
+		  <Row style={{ paddingBottom: "10px",  display:"flex"}}>
+			{WORK.map((work, index) => (
+			  <Col md={4} className="work-card" key={index} width="200">
+				  <WorkCards
+				  imgPath={work.image}
+				  technologyUsed={work.techUsed}
+				  title={work.name}
+				  duration={work.duration}
+				  description={work.description}
+				  link={work.url}
+				/>
+			  </Col>           
+			))}
+		  </Row>
 		  
 		  
 		</Container>
@@ -21,19 +36,4 @@ function Work() {
   export default Work;
   
    
-  /**
-   * <Row style={{ paddingBottom: "10px",  display:"flex"}}>
-			{WORK.map((interest, index) => (
-			  <Col md={4} className="interests-card" key={index} width="200">
-				  <WorkCards
-				  imgPath={interest.image}
-				  technologyUsed={interest.technologyUsed}
-				  isBlog={false}
-				  title={interest.name}
-				  description={interest.description}
-				  link={interest.url}
-				/>
-			  </Col>           
-			))}
-		  </Row>
-   */
+ 

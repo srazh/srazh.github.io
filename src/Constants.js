@@ -3,8 +3,8 @@ import concerts from "./assets/Interests/concerts.jpg";
 import etsy from "./assets/Interests/etsy.jpg";
 import foodie from "./assets/Interests/foodie.jpg";
 import botanyPoster from "./assets/Work/botanyPoster.jpg";
-
-
+import venmoRedesign from "./assets/Work/venmoRedesign.png";
+import thisWebsite from "./assets/Work/thisWebsite.jpeg";
 
 
 export const INTERESTS = [
@@ -41,7 +41,28 @@ export const INTERESTS = [
     {
         image: botanyPoster,        
         name: "Type Study Poster",
-        description: "testing ",
+        description: "A study of type through definitions and active design choices/imagery.",
+        techUsed: "Adobe Illustrator, Adobe InDesign",
+        duration: "Oct-Nov 2021",
+        url: ""
+    },
+
+    {
+        image: thisWebsite,        
+        name: "This Website!",
+        description: "Putting my front-end skills to the test for the first time, click the button below to check out the code!",
+        techUsed: "REACT, HTML/CSS, Bootstrap, VSCode, Git",
+        duration: "Mar-Present 2022",
+        url: ""
+    },
+
+    {
+        image: venmoRedesign,        
+        name: "Venmo Case Study/Redesign",
+        description: "A UX study of the everyday app Venmo, its shortcomings, and potential solutions to them.",
+        techUsed: "Figma",
+        duration: "Oct-Nov 2021",
+        url: ""
     },
 
 ]
