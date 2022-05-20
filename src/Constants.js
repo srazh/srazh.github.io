@@ -2,6 +2,8 @@ import music from "./assets/Interests/music.jpg";
 import concerts from "./assets/Interests/concerts.jpg";
 import etsy from "./assets/Interests/etsy.jpg";
 import foodie from "./assets/Interests/foodie.jpg";
+import botanyPoster from "./assets/Work/botanyPoster.jpg";
+
 
 
 
@@ -34,12 +36,14 @@ export const INTERESTS = [
 
 ]
 
-export const PLAY = [
+
+  export const WORK = [
     {
-        image: music,        
-        name: "Music",
+        image: botanyPoster,        
+        name: "Type Study Poster",
         description: "testing ",
-        url: "www.spotify.com/sz95120"
     },
 
 ]
+ 
+
