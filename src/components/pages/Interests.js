@@ -18,8 +18,6 @@ import { INTERESTS } from "../../Constants";
             <Col md={4} className="interests-card" key={index} width="200">
                 <InterestCards
                 imgPath={interest.image}
-                technologyUsed={interest.technologyUsed}
-                isBlog={false}
                 title={interest.name}
                 description={interest.description}
                 link={interest.url}
