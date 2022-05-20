@@ -14,9 +14,10 @@ function InterestCards(props) {
         <Card.Text style={{ textAlign: "justify", paddingLeft: "10px", width: "200px"}}>
           {props.description}
         </Card.Text>
-        <Button variant="primary" href={props.link} target="_blank"className="link-button">
+        <Button variant="primary" href={props.link} target="_blank"className="link-button"
+         style={{paddingLeft:"10px"}}>
           <BiLinkExternal /> &nbsp;
-          {"Learn more"}
+          {"See more"}
         </Button>
       </Card.Body>
     </Card>
