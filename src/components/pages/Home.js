@@ -1,6 +1,8 @@
 import { Container, Row, Col } from "react-bootstrap";
 import SocialMedia from "../pages/home/SocialMedia";
 import myImg from "../../assets/sarah.jpg";
+import TypeWriter from "../pages/home/Typewriter";
+
 
   
 export default function Home() {
@@ -21,13 +23,12 @@ export default function Home() {
                 <strong className="main-name"> Sarah Zhang</strong>
               </h1>
               <p className="heading-description blockquote">
-                I am a 3rd year Computer Science and Design student at Northeastern University. 
+                I am a 2nd year Computer Science and Design student at Northeastern University. 
                 I am passionate about opportunities at the intersect of those fields
               </p>
               <div className="heading-type">
+              <TypeWriter />
               </div>
-
-
              </Col>
              <Col md={5}>
               <img src={myImg} className="profile-pic" alt="avatar" width="500" height="500"/>
