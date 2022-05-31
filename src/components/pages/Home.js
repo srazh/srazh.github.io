@@ -41,7 +41,7 @@ export default function Home() {
               <h1>Get in touch with me!</h1>
               <p>
                 {" "}
-                Whether you just want to say hi, or collaborate on a project...
+                Whether you just want to say hi, or collaborate on a potential project...
                 <br />
                 <strong>Feel free to reach out!!!</strong>
               </p>
