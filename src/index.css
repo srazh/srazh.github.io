@@ -223,10 +223,7 @@ code {
 /* Work   */
 /*-------------*/
 
-  .work-section {
-    display:flex;
-
-  }
+ 
   .work-heading {
     color:#18314F;
     font-size:2.3em;
