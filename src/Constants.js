@@ -7,6 +7,8 @@ import venmoRedesign from "./assets/Work/venmoRedesign.png";
 import thisWebsite from "./assets/Work/thisWebsite.jpeg";
 
 
+
+
 export const INTERESTS = [
     {
         image: music,        
@@ -44,7 +46,7 @@ export const INTERESTS = [
         description: "A study of type through definitions and active design choices/imagery.",
         technologyUsed: "Adobe Illustrator, Adobe InDesign",
         duration: "Oct-Nov 2021",
-        url: ""
+        url: "botanyPoster"
     },
 
     {
@@ -53,7 +55,7 @@ export const INTERESTS = [
         description: "Putting my front-end skills to the test for the first time, click the button below to check out the code!",
         technologyUsed: "REACT, HTML/CSS, Bootstrap, VSCode, Git",
         duration: "Mar-Present 2022",
-        url: ""
+        url: "https://github.com/srazh/sz-portfolio"
     },
 
     {
