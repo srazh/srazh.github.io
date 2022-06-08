@@ -4,30 +4,28 @@ import WorkCards from "./WorkCards";
 import { WORK } from "../../Constants";
 
 
+
+
 function Work() {
 	return (
-	  <Container fluid className="work-section">
+	  <Container fluid className="interests-section">
 		<Container>
-		  <h1 className="work-heading">
-			My current <strong> Work </strong>
+		  <h1 className="interests-heading">
+			My current <strong>Work </strong>
 		  </h1>
-
 		  <Row style={{ paddingBottom: "10px",  display:"flex"}}>
 			{WORK.map((work, index) => (
-			  <Col md={4} className="work-card" key={index} width="200">
+			  <Col md={4} className="interests-card" key={index} width="200">
 				  <WorkCards
 				  imgPath={work.image}
-				  technologyUsed={work.technologyUsed}
 				  title={work.name}
-				  duration={work.duration}
 				  description={work.description}
+				  techUsed={work.techUsed}
 				  link={work.url}
 				/>
 			  </Col>           
 			))}
 		  </Row>
-		  
-		  
 		</Container>
 	  </Container>
 	);

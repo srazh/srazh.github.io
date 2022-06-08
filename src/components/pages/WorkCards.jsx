@@ -7,7 +7,7 @@ import { BiLinkExternal } from "react-icons/bi";
 
 function WorkCards(props) {
     return (
-      <Card className="work-card-view" >
+      <Card className="interests-card-view" >
         <Card.Img variant="top" src={props.imgPath} alt="card-img" width="800px"/>
         <Card.Body>
           <Card.Title style={{fontWeight: "bold", paddingLeft:"10px"}}>{props.title}</Card.Title>

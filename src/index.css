@@ -191,7 +191,6 @@ code {
   transition: all 0.5s ease 0s;
   flex-direction: row;
 
-  
 
 }
 .card-img-top {
@@ -211,37 +210,30 @@ code {
     margin-left: 25%;
   }
 
-  
-
-
   .link-button {
     color: green;
   }
 
 
-  /*-------------*/
+/*-------------*/
 /* Work   */
 /*-------------*/
 
- 
-  .work-heading {
-    color:#18314F;
-    font-size:2.3em;
-    font-weight: 500;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 50px;
-  }
+.work-heading{
+  padding-left: 1000px;
+}
 
-  .work-card-view {
-    box-shadow: 0 4px 5px 3px #343e47;
-    color: #414141;
-    background-color: transparent;
-    opacity: 0.9;
-    transition: all 0.5s ease 0s;
-    flex-direction: row;
-  
-  }
+
+
+
+
+
+
+
+
+
+
+
 
   /*-------------*/
   /* Play        */
