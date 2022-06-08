@@ -64,7 +64,7 @@ export const INTERESTS = [
         description: "A UX study of the everyday app Venmo, its shortcomings, and potential solutions to them.",
         technologyUsed: "Figma",
         duration: "Oct-Nov 2021",
-        url: ""
+        url: "https://www.figma.com/proto/t7cJXUSBp9ueXjPWVQ5UnA/Venmo-Redesign-Prototype?node-id=32%3A89&starting-point-node-id=2%3A2"
     },
 
 ]
