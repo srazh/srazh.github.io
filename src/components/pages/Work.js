@@ -20,8 +20,8 @@ function Work() {
 				  imgPath={work.image}
 				  title={work.name}
 				  description={work.description}
-				  techUsed={work.techUsed}
-				  link={work.url}
+				  technologyUsed={work.technologyUsed}
+				  duration={work.duration}
 				/>
 			  </Col>           
 			))}
