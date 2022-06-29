@@ -22,6 +22,7 @@ function Work() {
 				  description={work.description}
 				  technologyUsed={work.technologyUsed}
 				  duration={work.duration}
+				  url={work.url}
 				/>
 			  </Col>           
 			))}
