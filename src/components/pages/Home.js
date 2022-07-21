@@ -1,5 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import SocialMedia from "../pages/home/SocialMedia";
+import myImg from "../../assets/sarah.jpg";
 
 
   
@@ -21,16 +22,14 @@ export default function Home() {
                 <strong className="main-name"> Sarah Zhang</strong>
               </h1>
               <p className="heading-description blockquote">
-                I am a 2nd year CS and Design student at Northeastern University. 
+                I am a 2nd year Computer Science and Design student at Northeastern University. 
                 I am passionate about opportunities at the intersect of those fields
               </p>
               <div className="heading-type">
               </div>
-
-
              </Col>
              <Col md={5}>
-              <img src={"./assets/sarah.jpg"} className="profile-pic" alt="avatar" width="500" height="500"/>
+              <img src={myImg} className="profile-pic" alt="avatar" width="500" height="500"/>
             </Col>
           </Row>
         </Container>
@@ -42,7 +41,7 @@ export default function Home() {
               <h1>Get in touch with me!</h1>
               <p>
                 {" "}
-                Whether you just want to say hi, or collaborate on a project...
+                Whether you just want to say hi, or collaborate on a potential project...
                 <br />
                 <strong>Feel free to reach out!!!</strong>
               </p>

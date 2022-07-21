@@ -36,20 +36,24 @@ code {
 /*-------------*/
 
 .heading {
-  font-size: 2.4em !important;
-  padding-left: 20px !important;
+  font-size: 2.4em;
+  padding-left: 100px ;
   color: #384E77;
 }
 
 .heading-name {
-  font-size: 2.5em !important;
-  padding-left: 20px !important;
+  font-size: 2.5em;
+  padding-left: 100px ;
   color: #18314F;
 }
 
 .heading-description  {
-  margin-left: 20px !important;
+  margin-left: 100px;
+  max-width: 400px;
+  float: left;
+  display: flex;
 }
+
 
 .main-name {
   color: #8BBEB2;
@@ -60,28 +64,28 @@ code {
   z-index: -1;
   background-position: top center;
   background-repeat: no-repeat;
-  padding-bottom: 30px !important;
-  padding-top: 30px !important;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 .home-about-social {
-  text-align: center !important;
+  text-align: center;
   padding-top: 25px;
-  color: #8BBEB2 !important;
+  color: #8BBEB2 ;
 }
 
 .home-social-icons {
-  position: relative !important;
-  display: inline-block !important;
-  width: 60px !important;
-  height: 60px !important;
-  text-align: center !important;
-  font-size: 1.2em !important;
-  line-height: 2em !important;
-  background: #8BBEB2 !important;
-  border-radius: 50% !important;
-  transition: 0.5s !important;
-  border: 1px solid #E6F9AF;
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 2em;
+  background: #8BBEB2 ;
+  border-radius: 50%;
+  transition: 0.5s;
+  border: 2px solid #384E77;
 }
 .home-social-icons::before {
   content: "";
@@ -91,7 +95,7 @@ code {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #5b585c;
+  background: #1831;
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -99,17 +103,17 @@ code {
 
 
 .home-about-social {
-  text-align: center !important;
+  text-align: center ;
   padding-top: 25px;
-  color: #414141 !important;
+  color: #414141 ;
 }
 
 .home-about-social-links {
-  justify-content: center !important;
-  padding-top: 15px !important;
-  display: inline-block !important;
-  position: relative !important;
-  padding-inline-start: 0 !important;
+  justify-content: center;
+  padding-top: 15px ;
+  display: inline-block ;
+  position: relative;
+  padding-inline-start: 0 ;
 }
 
 .home-social-icons:hover::before {
@@ -118,18 +122,19 @@ code {
 }
 
 .home-social-icons:hover {
-  color: #8BBEB2;
+  display: inline-block;
+  color: #0D0630;
   box-shadow: 0 0 5px #384E77;
   text-shadow: 0 0 2px #384E77;
 }
 
 .social-icons {
-  display: inline-block !important;
-  padding-left: 15px;
-  height: 60px;
+  display: inline-block;
+  padding-left: 20px;
+  height: px;
 }
 .icon-colour {
-  color: #ffffff !important;
+  color: #ffffff;
 }
 
 .social-icon {
@@ -137,11 +142,12 @@ code {
 }
 
 .profile-pic {
+  justify-content: center ;
   border-radius: 50%;
   height: 300px;
   width: 300px;
   margin-top: 4%;
-  margin-left: 40%;
+  display: flex;
 }
 
 
@@ -150,20 +156,49 @@ code {
 /*-------------*/
 
 .interests-section {
-  position: relative;
-  padding-top: 150px;
-  padding-bottom: 30px;
+  display: flex;
+  flex-direction: row !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
+
+.interests-card {
+  display: flex;
+  padding-top: 5px;
+  padding-bottom: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+  height: auto; 
+
 }
 
 .interests-heading {
   color:#18314F;
   font-size:2.3em;
   font-weight: 500;
-  padding-top: 10px;
-  padding-bottom: 15px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 30px;
 }
 
+.interests-card-view {
+  box-shadow: 0 4px 5px 3px #8BBEB2;
+  color: #384E77;
+  background-color: transparent;
+  opacity: 0.9;
+  transition: all 0.5s ease 0s;
+  flex-direction: row;
 
+
+}
+.card-img-top {
+  padding: 10px;
+  border-radius: 10px;
+  width: 250px;
+  height: auto;
+
+}
 
 @media (max-width: 767px) {
   .profile-pic {
@@ -173,7 +208,46 @@ code {
     margin-top: 12%;
     margin-left: 25%;
   }
+
+  .link-button {
+    color: green;
+  }
+
+
+/*-------------*/
+/* Work   */
+/*-------------*/
+
+.work-heading{
+  padding-left: 1000px;
 }
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*-------------*/
+  /* Play        */
+  /*-------------*/
+
+  .column {
+    width: 25%;
+    padding: 10px;
+    justify-content: space-evenly;
+  }
+  
+  .row:after {
+    display: table;
+    justify-content: space-evenly;
+  }
+
+
+}
