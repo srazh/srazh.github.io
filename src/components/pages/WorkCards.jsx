@@ -17,8 +17,6 @@ function WorkCards(props) {
           <Card.Text style={{ paddingLeft:"10px", paddingRight:"10px"}}>Tech Used: {props.technologyUsed}</Card.Text>
           <Card.Text style={{ paddingLeft:"10px",}}>Duration: {props.duration}</Card.Text>
           <Button variant="primary" href={props.url} target="_blank"className="link-button"></Button>
-          <Card.Text >Tech Used: {props.technologyUsed}</Card.Text>
-          <Card.Text >Duration: {props.duration}</Card.Text>
           <Button variant="primary" href={props.link} target="_blank"className="link-button"
            style={{paddingLeft:"10px"}}>
             <BiLinkExternal /> &nbsp;

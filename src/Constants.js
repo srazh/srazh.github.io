@@ -19,7 +19,7 @@ export const INTERESTS = [
     {
         image: concerts,        
         name: "Concerts",
-        description: "Concerts have a special place in my heart, whether it be large-scale festivals or intimate Boston venues. My favorite so far has to be seeing A$AP Rocky at GovBall 2021 and I am currently looking forward to Govball 2022 in June and Electric Zoo 2022 in September!",
+        description: "Concerts have a special place in my heart, whether it be large-scale festivals or intimate Boston venues. My favorite so far has to be seeing A$AP Rocky at GovBall 2021 and I am currently looking forward to Outside Lands SF 2022 in August and Electric Zoo NYC 2022 in September!",
        
     },
     {
