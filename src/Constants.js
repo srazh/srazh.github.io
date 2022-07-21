@@ -44,23 +44,23 @@ export const INTERESTS = [
         image: botanyPoster,        
         name: "Type Study Poster",
         description: "A study of type through definitions and active design choices/imagery.",
-        technologyUsed: "Adobe Illustrator, Adobe InDesign",
+        technologyUsed: "Adobe Illustrater & Indesign",
         duration: "Oct-Nov 2021",
-        url: "botanyPoster"
+        url: "https://www.figma.com/file/5feg2ZB46gleBCPqHvNmHK/Zhang_Sarah_Type_Poster?node-id=0%3A1"
     },
 
     {
         image: thisWebsite,        
         name: "This Website!",
         description: "Putting my front-end skills to the test for the first time, click the button below to check out the code!",
-        technologyUsed: "REACT, HTML/CSS, Bootstrap, VSCode, Git",
+        technologyUsed: "REACT, HTML/CSS, Bootstrap, Git",
         duration: "Mar-Present 2022",
         url: "https://github.com/srazh/sz-portfolio"
     },
 
     {
         image: venmoRedesign,        
-        name: "Venmo Case Study/Redesign",
+        name: "Venmo Case Study & Redesign",
         description: "A UX study of the everyday app Venmo, its shortcomings, and potential solutions to them.",
         technologyUsed: "Figma",
         duration: "Oct-Nov 2021",
