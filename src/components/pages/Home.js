@@ -23,7 +23,7 @@ export default function Home() {
               </h1>
               <p className="heading-description blockquote">
                 I am a 3rd year Computer Science and Design student at Northeastern University. 
-                I am currently seeking opportunities in Front End Development and Software Engineering.
+                I am currently seeking co-op/internship opportunities in Front End Development and Software Engineering.
               </p>
               <div className="heading-type">
               </div>
