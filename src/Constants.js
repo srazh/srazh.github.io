@@ -6,10 +6,12 @@ import botanyPoster from "./assets/Work/botanyPoster.jpg";
 import venmoRedesign from "./assets/Work/venmoRedesign.png";
 import thisWebsite from "./assets/Work/thisWebsite.jpeg";
 import nuStatus from "./assets/Work/nuStatus.png";
+import hackbeanpot from "./assets/Work/hackbeanpot.png";
 
 
 
 export const INTERESTS = [
+    
     {
         image: music,        
         name: "Music",
@@ -42,6 +44,14 @@ export const INTERESTS = [
   export const WORK = [
 
 
+    {
+        image: hackbeanpot,        
+        name: "HackBeanPot: Main Site ",
+        description: "I serve as website designer and developer for HackbeanPot Inc, a non-profit Boston based hackathon.",
+        duration: "July 2022-Present ",
+        technologyUsed: "Figma, React.js, Gatsby.js, Typescript, Git",
+        url: "https://hackbeanpot.com/"
+    },
     {
         image: nuStatus,        
         name: "NUStatus: Mobile App Design",
