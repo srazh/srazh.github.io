@@ -5,7 +5,7 @@ import foodie from "./assets/Interests/foodie.jpg";
 import botanyPoster from "./assets/Work/botanyPoster.jpg";
 import venmoRedesign from "./assets/Work/venmoRedesign.png";
 import thisWebsite from "./assets/Work/thisWebsite.jpeg";
-
+import nuStatus from "./assets/Work/nuStatus.png";
 
 
 
@@ -40,6 +40,16 @@ export const INTERESTS = [
 
 
   export const WORK = [
+
+
+    {
+        image: nuStatus,        
+        name: "NUStatus: Mobile App Design",
+        description: "NUStatus is a mobile app I designed. The purpose of the app is checking printer/gym/room statuses around campus in order to save time",
+        technologyUsed: "Figma",
+        duration: "Oct-Nov 2022",
+        url: "https://www.figma.com/proto/t7cJXUSBp9ueXjPWVQ5UnA/Venmo-Redesign-Prototype?node-id=32%3A89&starting-point-node-id=2%3A2"
+    },
     {
         image: botanyPoster,        
         name: "Type Study Poster",
@@ -65,7 +75,7 @@ export const INTERESTS = [
         technologyUsed: "Figma",
         duration: "Oct-Nov 2021",
         url: "https://www.figma.com/proto/t7cJXUSBp9ueXjPWVQ5UnA/Venmo-Redesign-Prototype?node-id=32%3A89&starting-point-node-id=2%3A2"
-    },
+    }
 
 ]
  

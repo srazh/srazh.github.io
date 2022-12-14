@@ -11,7 +11,6 @@ return (
 	<>
 	<Nav>
 		<Bars />
-
 		<NavMenu>
 		<NavLink to='/' activeStyle>
 			Home
