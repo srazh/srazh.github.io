@@ -2,7 +2,6 @@ import music from "./assets/Interests/music.jpg";
 import concerts from "./assets/Interests/concerts.jpg";
 import etsy from "./assets/Interests/etsy.jpg";
 import foodie from "./assets/Interests/foodie.jpg";
-import botanyPoster from "./assets/Work/botanyPoster.jpg";
 import venmoRedesign from "./assets/Work/venmoRedesign.png";
 import Gruepr from "./assets/Work/Gruepr.png";
 import nuStatus from "./assets/Work/nuStatus.png";
