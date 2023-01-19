@@ -4,14 +4,13 @@ import etsy from "./assets/Interests/etsy.jpg";
 import foodie from "./assets/Interests/foodie.jpg";
 import botanyPoster from "./assets/Work/botanyPoster.jpg";
 import venmoRedesign from "./assets/Work/venmoRedesign.png";
-import thisWebsite from "./assets/Work/thisWebsite.jpeg";
+import Gruepr from "./assets/Work/Gruepr.png";
 import nuStatus from "./assets/Work/nuStatus.png";
 import hackbeanpot from "./assets/Work/hackbeanpot.png";
 
 
 
 export const INTERESTS = [
-    
     {
         image: music,        
         name: "Music",
@@ -60,22 +59,15 @@ export const INTERESTS = [
         duration: "Oct-Nov 2022",
         url: "https://www.figma.com/proto/t7cJXUSBp9ueXjPWVQ5UnA/Venmo-Redesign-Prototype?node-id=32%3A89&starting-point-node-id=2%3A2"
     },
-    {
-        image: botanyPoster,        
-        name: "Type Study Poster",
-        description: "A study of type through definitions and active design choices/imagery.",
-        technologyUsed: "Adobe Illustrater & Indesign",
-        duration: "Oct-Nov 2021",
-        url: "https://www.figma.com/file/5feg2ZB46gleBCPqHvNmHK/Zhang_Sarah_Type_Poster?node-id=0%3A1"
-    },
+   
 
     {
-        image: thisWebsite,        
-        name: "This Website!",
-        description: "Putting my front-end skills to the test for the first time, click the button below to check out the code!",
-        technologyUsed: "REACT, HTML/CSS, Bootstrap, Git",
-        duration: "Mar-Present 2022",
-        url: "https://github.com/srazh/sz-portfolio"
+        image: Gruepr,        
+        name: "Gruepr.com!",
+        description: "Developed marketing website for Scout Client",
+        technologyUsed: "React, Javascript, TailwindCSS",
+        duration: "Sept-Dec 2022",
+        url: "https://www.gruepr.com"
     },
 
     {
