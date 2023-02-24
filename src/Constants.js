@@ -56,7 +56,7 @@ export const INTERESTS = [
         description: "NUStatus is a mobile app I designed. The purpose of the app is checking printer/gym/room statuses around campus in order to save time",
         technologyUsed: "Figma",
         duration: "Oct-Nov 2022",
-        url: "https://www.figma.com/proto/aGYRqyR17qJjssl3kfbC1s/ID2-Project-2?node-id=53%3A890&starting-point-node-id=53%3A890"
+        url: "https://www.figma.com/file/aGYRqyR17qJjssl3kfbC1s/ID2-Project-2?node-id=10%3A4&t=XH9yhDmy7TfgxKuv-0"
     },
     {
         image: Gruepr,        
